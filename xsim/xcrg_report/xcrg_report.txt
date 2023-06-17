@@ -1,0 +1,902 @@
+
+
+ Xcrg Coverage Main Report 
+
+   Date             :, Fri Jun 16 12:39:22 2023 PDT
+   User             :, ani
+   Version          :, Vivado Simulator Coverage Report 2019.2
+   Command Line     :, /home/ani/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xcrg -report_format all 
+   Number of Tests  :, 1
+
+   Coverage Score            :, 99.7656
+   Total Insts Score         :, 99.7656
+   Total no of Cover Groups  :, 5
+   Total no of Instances     :, 5
+
+
+     CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+       tb_decryptor_pkg::coverage::cg_polyn_coverage     ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+       tb_decryptor_pkg::coverage::cg_preamble_cov       ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+       tb_decryptor_pkg::coverage::cg_seed_cov           ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+       tb_decryptor_pkg::coverage::cg_str_len_cov        ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+       tb_decryptor_pkg::coverage::cg_mem_test           ,98.8281     ,1           ,98.8281         ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+
+
+
+
+
+Cover Group Details : tb_decryptor_pkg::coverage::cg_polyn_coverage
+
+CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+tb_decryptor_pkg::coverage::cg_polyn_coverage     ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+      Instances of CoverGroup - tb_decryptor_pkg::coverage::cg_polyn_coverage
+
+             InstName,                                         Score,      Weight,     Goal,       AtLeast,    AutoBinMax, PrintMissing,   IsInst,     Comment,    
+             obj.cg_polyn_coverage                             ,100         ,1           ,100         ,1           ,64          ,0               ,1           ,            ,
+
+
+      Instance obj.cg_polyn_coverage Cover Point Details 
+
+             Name,                                             TableTag,     Expected,   Uncovered,  Covered,    Percent,    Goal,       Weight,     AtLeast,    AutoBinMax, Comment,    
+             ptrn_sel                                          ,cg_polyn_coverage_obj.cg_polyn_coverage_ptrn_sel,6           ,0           ,6           ,100         ,100         ,1           ,1           ,64          ,            ,
+
+
+
+
+
+
+
+
+Cover Group Details : tb_decryptor_pkg::coverage::cg_preamble_cov
+
+CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+tb_decryptor_pkg::coverage::cg_preamble_cov       ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+      Instances of CoverGroup - tb_decryptor_pkg::coverage::cg_preamble_cov
+
+             InstName,                                         Score,      Weight,     Goal,       AtLeast,    AutoBinMax, PrintMissing,   IsInst,     Comment,    
+             obj.cg_preamble_cov                               ,100         ,1           ,100         ,1           ,64          ,0               ,1           ,            ,
+
+
+      Instance obj.cg_preamble_cov Cover Point Details 
+
+             Name,                                             TableTag,     Expected,   Uncovered,  Covered,    Percent,    Goal,       Weight,     AtLeast,    AutoBinMax, Comment,    
+             preamble_len                                      ,cg_preamble_cov_obj.cg_preamble_cov_preamble_len,6           ,0           ,6           ,100         ,100         ,1           ,1           ,64          ,            ,
+
+
+
+
+
+
+
+
+Cover Group Details : tb_decryptor_pkg::coverage::cg_seed_cov
+
+CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+tb_decryptor_pkg::coverage::cg_seed_cov           ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+      Instances of CoverGroup - tb_decryptor_pkg::coverage::cg_seed_cov
+
+             InstName,                                         Score,      Weight,     Goal,       AtLeast,    AutoBinMax, PrintMissing,   IsInst,     Comment,    
+             obj.cg_seed_cov                                   ,100         ,1           ,100         ,1           ,64          ,0               ,1           ,            ,
+
+
+      Instance obj.cg_seed_cov Cover Point Details 
+
+             Name,                                             TableTag,     Expected,   Uncovered,  Covered,    Percent,    Goal,       Weight,     AtLeast,    AutoBinMax, Comment,    
+             seed                                              ,cg_seed_cov_obj.cg_seed_cov_seed,63          ,0           ,63          ,100         ,100         ,1           ,1           ,64          ,            ,
+
+
+
+
+
+
+
+
+Cover Group Details : tb_decryptor_pkg::coverage::cg_str_len_cov
+
+CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+tb_decryptor_pkg::coverage::cg_str_len_cov        ,100         ,1           ,100             ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+      Instances of CoverGroup - tb_decryptor_pkg::coverage::cg_str_len_cov
+
+             InstName,                                         Score,      Weight,     Goal,       AtLeast,    AutoBinMax, PrintMissing,   IsInst,     Comment,    
+             obj.cg_str_len_cov                                ,100         ,1           ,100         ,1           ,64          ,0               ,1           ,            ,
+
+
+      Instance obj.cg_str_len_cov Cover Point Details 
+
+             Name,                                             TableTag,     Expected,   Uncovered,  Covered,    Percent,    Goal,       Weight,     AtLeast,    AutoBinMax, Comment,    
+             ip_str_len                                        ,cg_str_len_cov_obj.cg_str_len_cov_ip_str_len,58          ,0           ,58          ,100         ,100         ,1           ,1           ,64          ,            ,
+
+
+
+
+
+
+
+
+Cover Group Details : tb_decryptor_pkg::coverage::cg_mem_test
+
+CgName,                                           Score,      NumInsts,   AvgInstScore,   Weight,     Goal,       Merge Insts,    Get Inst Cov,   Per Inst,   AutoBinMax,     Comment,    
+
+tb_decryptor_pkg::coverage::cg_mem_test           ,98.8281     ,1           ,98.8281         ,1           ,100         ,0               ,0               ,0           ,64              ,            ,
+
+      Instances of CoverGroup - tb_decryptor_pkg::coverage::cg_mem_test
+
+             InstName,                                         Score,      Weight,     Goal,       AtLeast,    AutoBinMax, PrintMissing,   IsInst,     Comment,    
+             obj.cg_mem_test                                   ,98.8281     ,1           ,100         ,1           ,64          ,0               ,1           ,            ,
+
+
+      Instance obj.cg_mem_test Cover Point Details 
+
+             Name,                                             TableTag,     Expected,   Uncovered,  Covered,    Percent,    Goal,       Weight,     AtLeast,    AutoBinMax, Comment,    
+             addr                                              ,cg_mem_test_obj.cg_mem_test_addr,256         ,0           ,256         ,100         ,100         ,1           ,1           ,64          ,            ,
+             data                                              ,cg_mem_test_obj.cg_mem_test_data,256         ,6           ,250         ,97.6562     ,100         ,1           ,1           ,64          ,            ,
+
+
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_polyn_coverage, Variable :, ptrn_sel
+ Table tag :, cg_polyn_coverage_obj.cg_polyn_coverage_ptrn_sel
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   6           ,0           ,6           ,100         ,
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      ptrn_sel_bins_0,326         ,1           ,
+      ptrn_sel_bins_1,310         ,1           ,
+      ptrn_sel_bins_2,364         ,1           ,
+      ptrn_sel_bins_3,302         ,1           ,
+      ptrn_sel_bins_4,318         ,1           ,
+      ptrn_sel_bins_5,380         ,1           ,
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_preamble_cov, Variable :, preamble_len
+ Table tag :, cg_preamble_cov_obj.cg_preamble_cov_preamble_len
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   6           ,0           ,6           ,100         ,
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      preamble_len_bins_7,378         ,1           ,
+      preamble_len_bins_8,308         ,1           ,
+      preamble_len_bins_9,334         ,1           ,
+      preamble_len_bins_10,314         ,1           ,
+      preamble_len_bins_11,340         ,1           ,
+      preamble_len_bins_12,326         ,1           ,
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_seed_cov, Variable :, seed
+ Table tag :, cg_seed_cov_obj.cg_seed_cov_seed
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   63          ,0           ,63          ,100         ,
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      seed_bins_1 ,40          ,1           ,
+      seed_bins_2 ,44          ,1           ,
+      seed_bins_3 ,44          ,1           ,
+      seed_bins_4 ,48          ,1           ,
+      seed_bins_5 ,50          ,1           ,
+      seed_bins_6 ,34          ,1           ,
+      seed_bins_7 ,26          ,1           ,
+      seed_bins_8 ,28          ,1           ,
+      seed_bins_9 ,32          ,1           ,
+      seed_bins_10,30          ,1           ,
+      seed_bins_11,32          ,1           ,
+      seed_bins_12,38          ,1           ,
+      seed_bins_13,22          ,1           ,
+      seed_bins_14,26          ,1           ,
+      seed_bins_15,42          ,1           ,
+      seed_bins_16,34          ,1           ,
+      seed_bins_17,30          ,1           ,
+      seed_bins_18,48          ,1           ,
+      seed_bins_19,36          ,1           ,
+      seed_bins_20,26          ,1           ,
+      seed_bins_21,32          ,1           ,
+      seed_bins_22,36          ,1           ,
+      seed_bins_23,32          ,1           ,
+      seed_bins_24,48          ,1           ,
+      seed_bins_25,20          ,1           ,
+      seed_bins_26,24          ,1           ,
+      seed_bins_27,22          ,1           ,
+      seed_bins_28,38          ,1           ,
+      seed_bins_29,34          ,1           ,
+      seed_bins_30,38          ,1           ,
+      seed_bins_31,18          ,1           ,
+      seed_bins_32,32          ,1           ,
+      seed_bins_33,30          ,1           ,
+      seed_bins_34,30          ,1           ,
+      seed_bins_35,26          ,1           ,
+      seed_bins_36,38          ,1           ,
+      seed_bins_37,20          ,1           ,
+      seed_bins_38,20          ,1           ,
+      seed_bins_39,44          ,1           ,
+      seed_bins_40,28          ,1           ,
+      seed_bins_41,16          ,1           ,
+      seed_bins_42,44          ,1           ,
+      seed_bins_43,48          ,1           ,
+      seed_bins_44,30          ,1           ,
+      seed_bins_45,22          ,1           ,
+      seed_bins_46,36          ,1           ,
+      seed_bins_47,20          ,1           ,
+      seed_bins_48,28          ,1           ,
+      seed_bins_49,34          ,1           ,
+      seed_bins_50,30          ,1           ,
+      seed_bins_51,20          ,1           ,
+      seed_bins_52,42          ,1           ,
+      seed_bins_53,26          ,1           ,
+      seed_bins_54,26          ,1           ,
+      seed_bins_55,38          ,1           ,
+      seed_bins_56,24          ,1           ,
+      seed_bins_57,30          ,1           ,
+      seed_bins_58,22          ,1           ,
+      seed_bins_59,24          ,1           ,
+      seed_bins_60,28          ,1           ,
+      seed_bins_61,30          ,1           ,
+      seed_bins_62,28          ,1           ,
+      seed_bins_63,34          ,1           ,
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_str_len_cov, Variable :, ip_str_len
+ Table tag :, cg_str_len_cov_obj.cg_str_len_cov_ip_str_len
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   58          ,0           ,58          ,100         ,
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      ip_str_len_bins_0,40          ,1           ,
+      ip_str_len_bins_1,40          ,1           ,
+      ip_str_len_bins_2,30          ,1           ,
+      ip_str_len_bins_3,32          ,1           ,
+      ip_str_len_bins_4,40          ,1           ,
+      ip_str_len_bins_5,42          ,1           ,
+      ip_str_len_bins_6,34          ,1           ,
+      ip_str_len_bins_7,40          ,1           ,
+      ip_str_len_bins_8,26          ,1           ,
+      ip_str_len_bins_9,40          ,1           ,
+      ip_str_len_bins_10,32          ,1           ,
+      ip_str_len_bins_11,30          ,1           ,
+      ip_str_len_bins_12,30          ,1           ,
+      ip_str_len_bins_13,38          ,1           ,
+      ip_str_len_bins_14,38          ,1           ,
+      ip_str_len_bins_15,34          ,1           ,
+      ip_str_len_bins_16,34          ,1           ,
+      ip_str_len_bins_17,42          ,1           ,
+      ip_str_len_bins_18,46          ,1           ,
+      ip_str_len_bins_19,32          ,1           ,
+      ip_str_len_bins_20,38          ,1           ,
+      ip_str_len_bins_21,50          ,1           ,
+      ip_str_len_bins_22,24          ,1           ,
+      ip_str_len_bins_23,24          ,1           ,
+      ip_str_len_bins_24,42          ,1           ,
+      ip_str_len_bins_25,36          ,1           ,
+      ip_str_len_bins_26,50          ,1           ,
+      ip_str_len_bins_27,28          ,1           ,
+      ip_str_len_bins_28,28          ,1           ,
+      ip_str_len_bins_29,32          ,1           ,
+      ip_str_len_bins_30,28          ,1           ,
+      ip_str_len_bins_31,34          ,1           ,
+      ip_str_len_bins_32,40          ,1           ,
+      ip_str_len_bins_33,58          ,1           ,
+      ip_str_len_bins_34,38          ,1           ,
+      ip_str_len_bins_35,40          ,1           ,
+      ip_str_len_bins_36,22          ,1           ,
+      ip_str_len_bins_37,34          ,1           ,
+      ip_str_len_bins_38,28          ,1           ,
+      ip_str_len_bins_39,30          ,1           ,
+      ip_str_len_bins_40,46          ,1           ,
+      ip_str_len_bins_41,32          ,1           ,
+      ip_str_len_bins_42,40          ,1           ,
+      ip_str_len_bins_43,32          ,1           ,
+      ip_str_len_bins_44,20          ,1           ,
+      ip_str_len_bins_45,32          ,1           ,
+      ip_str_len_bins_46,46          ,1           ,
+      ip_str_len_bins_47,46          ,1           ,
+      ip_str_len_bins_48,32          ,1           ,
+      ip_str_len_bins_49,46          ,1           ,
+      ip_str_len_bins_50,42          ,1           ,
+      ip_str_len_bins_51,30          ,1           ,
+      ip_str_len_bins_52,38          ,1           ,
+      ip_str_len_bins_53,22          ,1           ,
+      ip_str_len_bins_54,34          ,1           ,
+      ip_str_len_bins_55,16          ,1           ,
+      ip_str_len_bins_56,14          ,1           ,
+      ip_str_len_bins_57,8           ,1           ,
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_mem_test, Variable :, addr
+ Table tag :, cg_mem_test_obj.cg_mem_test_addr
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   256         ,0           ,256         ,100         ,
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      addr_bins_0 ,8           ,1           ,
+      addr_bins_1 ,8           ,1           ,
+      addr_bins_2 ,8           ,1           ,
+      addr_bins_3 ,8           ,1           ,
+      addr_bins_4 ,8           ,1           ,
+      addr_bins_5 ,8           ,1           ,
+      addr_bins_6 ,8           ,1           ,
+      addr_bins_7 ,8           ,1           ,
+      addr_bins_8 ,6           ,1           ,
+      addr_bins_9 ,8           ,1           ,
+      addr_bins_10,8           ,1           ,
+      addr_bins_11,8           ,1           ,
+      addr_bins_12,8           ,1           ,
+      addr_bins_13,8           ,1           ,
+      addr_bins_14,6           ,1           ,
+      addr_bins_15,8           ,1           ,
+      addr_bins_16,8           ,1           ,
+      addr_bins_17,8           ,1           ,
+      addr_bins_18,8           ,1           ,
+      addr_bins_19,8           ,1           ,
+      addr_bins_20,8           ,1           ,
+      addr_bins_21,8           ,1           ,
+      addr_bins_22,6           ,1           ,
+      addr_bins_23,8           ,1           ,
+      addr_bins_24,8           ,1           ,
+      addr_bins_25,8           ,1           ,
+      addr_bins_26,8           ,1           ,
+      addr_bins_27,8           ,1           ,
+      addr_bins_28,8           ,1           ,
+      addr_bins_29,8           ,1           ,
+      addr_bins_30,8           ,1           ,
+      addr_bins_31,8           ,1           ,
+      addr_bins_32,8           ,1           ,
+      addr_bins_33,8           ,1           ,
+      addr_bins_34,6           ,1           ,
+      addr_bins_35,8           ,1           ,
+      addr_bins_36,8           ,1           ,
+      addr_bins_37,8           ,1           ,
+      addr_bins_38,8           ,1           ,
+      addr_bins_39,8           ,1           ,
+      addr_bins_40,8           ,1           ,
+      addr_bins_41,8           ,1           ,
+      addr_bins_42,8           ,1           ,
+      addr_bins_43,8           ,1           ,
+      addr_bins_44,8           ,1           ,
+      addr_bins_45,8           ,1           ,
+      addr_bins_46,8           ,1           ,
+      addr_bins_47,8           ,1           ,
+      addr_bins_48,8           ,1           ,
+      addr_bins_49,6           ,1           ,
+      addr_bins_50,6           ,1           ,
+      addr_bins_51,8           ,1           ,
+      addr_bins_52,8           ,1           ,
+      addr_bins_53,8           ,1           ,
+      addr_bins_54,8           ,1           ,
+      addr_bins_55,8           ,1           ,
+      addr_bins_56,8           ,1           ,
+      addr_bins_57,8           ,1           ,
+      addr_bins_58,8           ,1           ,
+      addr_bins_59,6           ,1           ,
+      addr_bins_60,6           ,1           ,
+      addr_bins_61,8           ,1           ,
+      addr_bins_62,8           ,1           ,
+      addr_bins_63,8           ,1           ,
+      addr_bins_64,8           ,1           ,
+      addr_bins_65,8           ,1           ,
+      addr_bins_66,8           ,1           ,
+      addr_bins_67,8           ,1           ,
+      addr_bins_68,8           ,1           ,
+      addr_bins_69,8           ,1           ,
+      addr_bins_70,8           ,1           ,
+      addr_bins_71,8           ,1           ,
+      addr_bins_72,8           ,1           ,
+      addr_bins_73,8           ,1           ,
+      addr_bins_74,8           ,1           ,
+      addr_bins_75,8           ,1           ,
+      addr_bins_76,8           ,1           ,
+      addr_bins_77,8           ,1           ,
+      addr_bins_78,8           ,1           ,
+      addr_bins_79,8           ,1           ,
+      addr_bins_80,8           ,1           ,
+      addr_bins_81,8           ,1           ,
+      addr_bins_82,8           ,1           ,
+      addr_bins_83,8           ,1           ,
+      addr_bins_84,8           ,1           ,
+      addr_bins_85,8           ,1           ,
+      addr_bins_86,8           ,1           ,
+      addr_bins_87,8           ,1           ,
+      addr_bins_88,6           ,1           ,
+      addr_bins_89,8           ,1           ,
+      addr_bins_90,8           ,1           ,
+      addr_bins_91,8           ,1           ,
+      addr_bins_92,8           ,1           ,
+      addr_bins_93,8           ,1           ,
+      addr_bins_94,8           ,1           ,
+      addr_bins_95,8           ,1           ,
+      addr_bins_96,8           ,1           ,
+      addr_bins_97,8           ,1           ,
+      addr_bins_98,8           ,1           ,
+      addr_bins_99,8           ,1           ,
+      addr_bins_100,6           ,1           ,
+      addr_bins_101,8           ,1           ,
+      addr_bins_102,8           ,1           ,
+      addr_bins_103,6           ,1           ,
+      addr_bins_104,8           ,1           ,
+      addr_bins_105,8           ,1           ,
+      addr_bins_106,8           ,1           ,
+      addr_bins_107,8           ,1           ,
+      addr_bins_108,6           ,1           ,
+      addr_bins_109,8           ,1           ,
+      addr_bins_110,8           ,1           ,
+      addr_bins_111,8           ,1           ,
+      addr_bins_112,8           ,1           ,
+      addr_bins_113,8           ,1           ,
+      addr_bins_114,8           ,1           ,
+      addr_bins_115,8           ,1           ,
+      addr_bins_116,8           ,1           ,
+      addr_bins_117,8           ,1           ,
+      addr_bins_118,8           ,1           ,
+      addr_bins_119,8           ,1           ,
+      addr_bins_120,8           ,1           ,
+      addr_bins_121,8           ,1           ,
+      addr_bins_122,8           ,1           ,
+      addr_bins_123,8           ,1           ,
+      addr_bins_124,8           ,1           ,
+      addr_bins_125,8           ,1           ,
+      addr_bins_126,8           ,1           ,
+      addr_bins_127,8           ,1           ,
+      addr_bins_128,8           ,1           ,
+      addr_bins_129,8           ,1           ,
+      addr_bins_130,8           ,1           ,
+      addr_bins_131,8           ,1           ,
+      addr_bins_132,6           ,1           ,
+      addr_bins_133,8           ,1           ,
+      addr_bins_134,8           ,1           ,
+      addr_bins_135,8           ,1           ,
+      addr_bins_136,6           ,1           ,
+      addr_bins_137,8           ,1           ,
+      addr_bins_138,8           ,1           ,
+      addr_bins_139,8           ,1           ,
+      addr_bins_140,8           ,1           ,
+      addr_bins_141,8           ,1           ,
+      addr_bins_142,8           ,1           ,
+      addr_bins_143,8           ,1           ,
+      addr_bins_144,8           ,1           ,
+      addr_bins_145,8           ,1           ,
+      addr_bins_146,8           ,1           ,
+      addr_bins_147,8           ,1           ,
+      addr_bins_148,8           ,1           ,
+      addr_bins_149,8           ,1           ,
+      addr_bins_150,8           ,1           ,
+      addr_bins_151,8           ,1           ,
+      addr_bins_152,8           ,1           ,
+      addr_bins_153,6           ,1           ,
+      addr_bins_154,8           ,1           ,
+      addr_bins_155,8           ,1           ,
+      addr_bins_156,8           ,1           ,
+      addr_bins_157,8           ,1           ,
+      addr_bins_158,8           ,1           ,
+      addr_bins_159,8           ,1           ,
+      addr_bins_160,8           ,1           ,
+      addr_bins_161,8           ,1           ,
+      addr_bins_162,8           ,1           ,
+      addr_bins_163,8           ,1           ,
+      addr_bins_164,8           ,1           ,
+      addr_bins_165,6           ,1           ,
+      addr_bins_166,6           ,1           ,
+      addr_bins_167,8           ,1           ,
+      addr_bins_168,8           ,1           ,
+      addr_bins_169,8           ,1           ,
+      addr_bins_170,8           ,1           ,
+      addr_bins_171,8           ,1           ,
+      addr_bins_172,8           ,1           ,
+      addr_bins_173,8           ,1           ,
+      addr_bins_174,8           ,1           ,
+      addr_bins_175,8           ,1           ,
+      addr_bins_176,8           ,1           ,
+      addr_bins_177,6           ,1           ,
+      addr_bins_178,8           ,1           ,
+      addr_bins_179,8           ,1           ,
+      addr_bins_180,8           ,1           ,
+      addr_bins_181,8           ,1           ,
+      addr_bins_182,8           ,1           ,
+      addr_bins_183,8           ,1           ,
+      addr_bins_184,8           ,1           ,
+      addr_bins_185,8           ,1           ,
+      addr_bins_186,8           ,1           ,
+      addr_bins_187,8           ,1           ,
+      addr_bins_188,8           ,1           ,
+      addr_bins_189,8           ,1           ,
+      addr_bins_190,8           ,1           ,
+      addr_bins_191,8           ,1           ,
+      addr_bins_192,8           ,1           ,
+      addr_bins_193,8           ,1           ,
+      addr_bins_194,8           ,1           ,
+      addr_bins_195,6           ,1           ,
+      addr_bins_196,8           ,1           ,
+      addr_bins_197,8           ,1           ,
+      addr_bins_198,8           ,1           ,
+      addr_bins_199,8           ,1           ,
+      addr_bins_200,8           ,1           ,
+      addr_bins_201,6           ,1           ,
+      addr_bins_202,8           ,1           ,
+      addr_bins_203,8           ,1           ,
+      addr_bins_204,8           ,1           ,
+      addr_bins_205,8           ,1           ,
+      addr_bins_206,8           ,1           ,
+      addr_bins_207,8           ,1           ,
+      addr_bins_208,8           ,1           ,
+      addr_bins_209,8           ,1           ,
+      addr_bins_210,6           ,1           ,
+      addr_bins_211,8           ,1           ,
+      addr_bins_212,8           ,1           ,
+      addr_bins_213,8           ,1           ,
+      addr_bins_214,8           ,1           ,
+      addr_bins_215,8           ,1           ,
+      addr_bins_216,8           ,1           ,
+      addr_bins_217,8           ,1           ,
+      addr_bins_218,8           ,1           ,
+      addr_bins_219,8           ,1           ,
+      addr_bins_220,8           ,1           ,
+      addr_bins_221,8           ,1           ,
+      addr_bins_222,8           ,1           ,
+      addr_bins_223,8           ,1           ,
+      addr_bins_224,8           ,1           ,
+      addr_bins_225,8           ,1           ,
+      addr_bins_226,8           ,1           ,
+      addr_bins_227,8           ,1           ,
+      addr_bins_228,8           ,1           ,
+      addr_bins_229,8           ,1           ,
+      addr_bins_230,8           ,1           ,
+      addr_bins_231,8           ,1           ,
+      addr_bins_232,8           ,1           ,
+      addr_bins_233,6           ,1           ,
+      addr_bins_234,8           ,1           ,
+      addr_bins_235,8           ,1           ,
+      addr_bins_236,8           ,1           ,
+      addr_bins_237,8           ,1           ,
+      addr_bins_238,8           ,1           ,
+      addr_bins_239,8           ,1           ,
+      addr_bins_240,8           ,1           ,
+      addr_bins_241,8           ,1           ,
+      addr_bins_242,8           ,1           ,
+      addr_bins_243,8           ,1           ,
+      addr_bins_244,6           ,1           ,
+      addr_bins_245,8           ,1           ,
+      addr_bins_246,8           ,1           ,
+      addr_bins_247,8           ,1           ,
+      addr_bins_248,8           ,1           ,
+      addr_bins_249,8           ,1           ,
+      addr_bins_250,8           ,1           ,
+      addr_bins_251,8           ,1           ,
+      addr_bins_252,8           ,1           ,
+      addr_bins_253,8           ,1           ,
+      addr_bins_254,6           ,1           ,
+      addr_bins_255,8           ,1           ,
+
+
+
+
+
+
+ Cover Point Table for Inst : obj.cg_mem_test, Variable :, data
+ Table tag :, cg_mem_test_obj.cg_mem_test_data
+
+                      Summary 
+
+ Category,       Expected,   Uncovered,  Covered,    Percent,    
+ UserDefined,   256         ,6           ,250         ,97.6562     ,
+
+                      Uncovered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      data_bins_70,0           ,1           ,
+      data_bins_99,0           ,1           ,
+      data_bins_112,0           ,1           ,
+      data_bins_130,0           ,1           ,
+      data_bins_177,0           ,1           ,
+      data_bins_182,0           ,1           ,
+
+
+                     Covered bins 
+
+      Name,       Hit Count,  AtLeast,    
+      data_bins_0 ,10          ,1           ,
+      data_bins_1 ,2           ,1           ,
+      data_bins_2 ,10          ,1           ,
+      data_bins_3 ,8           ,1           ,
+      data_bins_4 ,4           ,1           ,
+      data_bins_5 ,10          ,1           ,
+      data_bins_6 ,10          ,1           ,
+      data_bins_7 ,10          ,1           ,
+      data_bins_8 ,16          ,1           ,
+      data_bins_9 ,2           ,1           ,
+      data_bins_10,10          ,1           ,
+      data_bins_11,2           ,1           ,
+      data_bins_12,6           ,1           ,
+      data_bins_13,8           ,1           ,
+      data_bins_14,12          ,1           ,
+      data_bins_15,8           ,1           ,
+      data_bins_16,4           ,1           ,
+      data_bins_17,14          ,1           ,
+      data_bins_18,6           ,1           ,
+      data_bins_19,4           ,1           ,
+      data_bins_20,2           ,1           ,
+      data_bins_21,16          ,1           ,
+      data_bins_22,10          ,1           ,
+      data_bins_23,6           ,1           ,
+      data_bins_24,10          ,1           ,
+      data_bins_25,8           ,1           ,
+      data_bins_26,10          ,1           ,
+      data_bins_27,2           ,1           ,
+      data_bins_28,6           ,1           ,
+      data_bins_29,4           ,1           ,
+      data_bins_30,4           ,1           ,
+      data_bins_31,4           ,1           ,
+      data_bins_32,2           ,1           ,
+      data_bins_33,10          ,1           ,
+      data_bins_34,4           ,1           ,
+      data_bins_35,8           ,1           ,
+      data_bins_36,4           ,1           ,
+      data_bins_37,10          ,1           ,
+      data_bins_38,8           ,1           ,
+      data_bins_39,10          ,1           ,
+      data_bins_40,10          ,1           ,
+      data_bins_41,10          ,1           ,
+      data_bins_42,6           ,1           ,
+      data_bins_43,8           ,1           ,
+      data_bins_44,4           ,1           ,
+      data_bins_45,8           ,1           ,
+      data_bins_46,14          ,1           ,
+      data_bins_47,12          ,1           ,
+      data_bins_48,2           ,1           ,
+      data_bins_49,16          ,1           ,
+      data_bins_50,8           ,1           ,
+      data_bins_51,6           ,1           ,
+      data_bins_52,12          ,1           ,
+      data_bins_53,10          ,1           ,
+      data_bins_54,14          ,1           ,
+      data_bins_55,6           ,1           ,
+      data_bins_56,8           ,1           ,
+      data_bins_57,6           ,1           ,
+      data_bins_58,6           ,1           ,
+      data_bins_59,8           ,1           ,
+      data_bins_60,8           ,1           ,
+      data_bins_61,2           ,1           ,
+      data_bins_62,2           ,1           ,
+      data_bins_63,10          ,1           ,
+      data_bins_64,8           ,1           ,
+      data_bins_65,12          ,1           ,
+      data_bins_66,8           ,1           ,
+      data_bins_67,6           ,1           ,
+      data_bins_68,8           ,1           ,
+      data_bins_69,10          ,1           ,
+      data_bins_71,8           ,1           ,
+      data_bins_72,8           ,1           ,
+      data_bins_73,2           ,1           ,
+      data_bins_74,16          ,1           ,
+      data_bins_75,6           ,1           ,
+      data_bins_76,4           ,1           ,
+      data_bins_77,8           ,1           ,
+      data_bins_78,10          ,1           ,
+      data_bins_79,20          ,1           ,
+      data_bins_80,2           ,1           ,
+      data_bins_81,4           ,1           ,
+      data_bins_82,6           ,1           ,
+      data_bins_83,10          ,1           ,
+      data_bins_84,8           ,1           ,
+      data_bins_85,10          ,1           ,
+      data_bins_86,4           ,1           ,
+      data_bins_87,6           ,1           ,
+      data_bins_88,18          ,1           ,
+      data_bins_89,6           ,1           ,
+      data_bins_90,16          ,1           ,
+      data_bins_91,10          ,1           ,
+      data_bins_92,10          ,1           ,
+      data_bins_93,4           ,1           ,
+      data_bins_94,6           ,1           ,
+      data_bins_95,4           ,1           ,
+      data_bins_96,14          ,1           ,
+      data_bins_97,12          ,1           ,
+      data_bins_98,6           ,1           ,
+      data_bins_100,10          ,1           ,
+      data_bins_101,6           ,1           ,
+      data_bins_102,4           ,1           ,
+      data_bins_103,10          ,1           ,
+      data_bins_104,12          ,1           ,
+      data_bins_105,6           ,1           ,
+      data_bins_106,4           ,1           ,
+      data_bins_107,4           ,1           ,
+      data_bins_108,2           ,1           ,
+      data_bins_109,2           ,1           ,
+      data_bins_110,2           ,1           ,
+      data_bins_111,8           ,1           ,
+      data_bins_113,6           ,1           ,
+      data_bins_114,6           ,1           ,
+      data_bins_115,10          ,1           ,
+      data_bins_116,10          ,1           ,
+      data_bins_117,14          ,1           ,
+      data_bins_118,14          ,1           ,
+      data_bins_119,10          ,1           ,
+      data_bins_120,8           ,1           ,
+      data_bins_121,10          ,1           ,
+      data_bins_122,12          ,1           ,
+      data_bins_123,8           ,1           ,
+      data_bins_124,12          ,1           ,
+      data_bins_125,6           ,1           ,
+      data_bins_126,6           ,1           ,
+      data_bins_127,10          ,1           ,
+      data_bins_128,12          ,1           ,
+      data_bins_129,12          ,1           ,
+      data_bins_131,12          ,1           ,
+      data_bins_132,12          ,1           ,
+      data_bins_133,12          ,1           ,
+      data_bins_134,4           ,1           ,
+      data_bins_135,10          ,1           ,
+      data_bins_136,4           ,1           ,
+      data_bins_137,14          ,1           ,
+      data_bins_138,8           ,1           ,
+      data_bins_139,8           ,1           ,
+      data_bins_140,8           ,1           ,
+      data_bins_141,6           ,1           ,
+      data_bins_142,12          ,1           ,
+      data_bins_143,8           ,1           ,
+      data_bins_144,6           ,1           ,
+      data_bins_145,12          ,1           ,
+      data_bins_146,6           ,1           ,
+      data_bins_147,4           ,1           ,
+      data_bins_148,8           ,1           ,
+      data_bins_149,4           ,1           ,
+      data_bins_150,10          ,1           ,
+      data_bins_151,10          ,1           ,
+      data_bins_152,2           ,1           ,
+      data_bins_153,2           ,1           ,
+      data_bins_154,8           ,1           ,
+      data_bins_155,12          ,1           ,
+      data_bins_156,6           ,1           ,
+      data_bins_157,6           ,1           ,
+      data_bins_158,6           ,1           ,
+      data_bins_159,14          ,1           ,
+      data_bins_160,12          ,1           ,
+      data_bins_161,4           ,1           ,
+      data_bins_162,8           ,1           ,
+      data_bins_163,6           ,1           ,
+      data_bins_164,8           ,1           ,
+      data_bins_165,10          ,1           ,
+      data_bins_166,18          ,1           ,
+      data_bins_167,4           ,1           ,
+      data_bins_168,2           ,1           ,
+      data_bins_169,6           ,1           ,
+      data_bins_170,8           ,1           ,
+      data_bins_171,10          ,1           ,
+      data_bins_172,10          ,1           ,
+      data_bins_173,8           ,1           ,
+      data_bins_174,12          ,1           ,
+      data_bins_175,8           ,1           ,
+      data_bins_176,10          ,1           ,
+      data_bins_178,6           ,1           ,
+      data_bins_179,4           ,1           ,
+      data_bins_180,14          ,1           ,
+      data_bins_181,6           ,1           ,
+      data_bins_183,8           ,1           ,
+      data_bins_184,14          ,1           ,
+      data_bins_185,8           ,1           ,
+      data_bins_186,2           ,1           ,
+      data_bins_187,8           ,1           ,
+      data_bins_188,8           ,1           ,
+      data_bins_189,16          ,1           ,
+      data_bins_190,10          ,1           ,
+      data_bins_191,4           ,1           ,
+      data_bins_192,6           ,1           ,
+      data_bins_193,8           ,1           ,
+      data_bins_194,8           ,1           ,
+      data_bins_195,6           ,1           ,
+      data_bins_196,6           ,1           ,
+      data_bins_197,12          ,1           ,
+      data_bins_198,6           ,1           ,
+      data_bins_199,8           ,1           ,
+      data_bins_200,6           ,1           ,
+      data_bins_201,14          ,1           ,
+      data_bins_202,2           ,1           ,
+      data_bins_203,12          ,1           ,
+      data_bins_204,4           ,1           ,
+      data_bins_205,6           ,1           ,
+      data_bins_206,8           ,1           ,
+      data_bins_207,2           ,1           ,
+      data_bins_208,6           ,1           ,
+      data_bins_209,10          ,1           ,
+      data_bins_210,6           ,1           ,
+      data_bins_211,10          ,1           ,
+      data_bins_212,6           ,1           ,
+      data_bins_213,4           ,1           ,
+      data_bins_214,8           ,1           ,
+      data_bins_215,10          ,1           ,
+      data_bins_216,8           ,1           ,
+      data_bins_217,2           ,1           ,
+      data_bins_218,8           ,1           ,
+      data_bins_219,8           ,1           ,
+      data_bins_220,6           ,1           ,
+      data_bins_221,8           ,1           ,
+      data_bins_222,12          ,1           ,
+      data_bins_223,4           ,1           ,
+      data_bins_224,14          ,1           ,
+      data_bins_225,8           ,1           ,
+      data_bins_226,12          ,1           ,
+      data_bins_227,4           ,1           ,
+      data_bins_228,6           ,1           ,
+      data_bins_229,8           ,1           ,
+      data_bins_230,12          ,1           ,
+      data_bins_231,8           ,1           ,
+      data_bins_232,4           ,1           ,
+      data_bins_233,10          ,1           ,
+      data_bins_234,4           ,1           ,
+      data_bins_235,8           ,1           ,
+      data_bins_236,6           ,1           ,
+      data_bins_237,2           ,1           ,
+      data_bins_238,8           ,1           ,
+      data_bins_239,6           ,1           ,
+      data_bins_240,12          ,1           ,
+      data_bins_241,6           ,1           ,
+      data_bins_242,12          ,1           ,
+      data_bins_243,20          ,1           ,
+      data_bins_244,14          ,1           ,
+      data_bins_245,2           ,1           ,
+      data_bins_246,8           ,1           ,
+      data_bins_247,10          ,1           ,
+      data_bins_248,8           ,1           ,
+      data_bins_249,14          ,1           ,
+      data_bins_250,10          ,1           ,
+      data_bins_251,10          ,1           ,
+      data_bins_252,4           ,1           ,
+      data_bins_253,10          ,1           ,
+      data_bins_254,4           ,1           ,
+      data_bins_255,4           ,1           ,
+
+
+
+
+
+

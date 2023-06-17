@@ -1,0 +1,11 @@
+alt
+**/*.jou
+**/*.log
+**/*.pb
+**/*.str
+**/.Xil
+**/xsim.dir
+**/xsim.covdb
+**/*.wdb
+
+

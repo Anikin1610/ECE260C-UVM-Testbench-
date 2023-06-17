@@ -1,0 +1,5 @@
+../tb/tb_decryptor_pkg.sv
+../tb/tb_top.sv
+../design/dat_mem.sv
+../design/decryptor_bfm.sv
+../design/top_level_4_260.sv
